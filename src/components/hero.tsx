@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <section className='HeroBg'>
             <div>
-              <h1>Donde la Innovación y la calidad se encuentran.</h1>  
+              <h1 className=''>Donde la Innovación <br /> y la calidad se encuentran.</h1>  
             </div>
         </section>
     )

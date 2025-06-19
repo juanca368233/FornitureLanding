@@ -9,12 +9,12 @@ const NavBarSection = () => {
     return (
         <nav className="NavBar">
             <img src= {Logo} alt="Header Logo" className="LogoImg"/>
-            <ul>
-                <a href="">Inicio</a>
-                <a href="">Nosotros</a>
-                <a href="">Tienda</a>
-                <a href="">Blog</a>
-                <a href="">Galería</a>
+            <ul className="Accesos">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Tienda</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Galería</a></li>
             </ul>
         </nav>
     )

@@ -2,8 +2,24 @@
 
 .NavBar {
     background-color: aliceblue;
+    padding: 30px 40px 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .LogoImg {
-    width: 250px;
+    width: 200px;
+}
+
+.Accesos {
+    display: flex;
+    gap: 30px;     
+}
+
+.Accesos a {
+    color: rgb(14, 14, 14);
+    display: flex;
+    gap: 30px;
+    
 }

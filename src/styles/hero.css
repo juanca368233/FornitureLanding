@@ -3,5 +3,11 @@
 .HeroBg {
     height: 100vh;
     background-image: url('/src/assets/galeria_01.jpg');
-    background-size: cover;   
+    background-size: cover;
+    display: flex;  
+     
+    justify-content: center;
+    align-items: center ;
+    
 }
+
